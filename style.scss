@@ -1,0 +1,733 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+// yuqoridagi logo bn navbar qismi*/
+.logo{
+.container{
+.links{
+ul{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+li{
+.x{
+color: #fb5849;
+}
+a{
+color: black;
+font:bold 16px verdana;
+text-decoration: none;
+}
+a:hover{
+color: #fb5849;
+transition-duration: 0.3s;
+}
+}
+}
+}
+}
+}
+/* header qismini media holati uchun */
+@media screen and( max-width:990px){
+    .klass-logo{
+        display: flex !important;
+        justify-content: center !important;
+        transition-duration: 2s;
+    }
+}
+@media screen and( max-width:576px){
+    .links{
+       ul{
+           display: flex !important;
+           flex-wrap: wrap !important;
+           transition-duration: 0.5s;
+           li{
+               margin-right: 5px;
+           }
+       }
+    }
+}
+.bg-img{
+    display: flex;
+    .one{
+   
+    height: 600px;
+    width: 530px;
+    background-image: url('img/top-left-bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cafe{
+        width: 70%;
+        color: white;
+        h1{
+            font: bold 55px "Dancing Script", cursive; 
+        }
+        p{
+            font: bold 16px verdana;
+        }
+        button{
+            padding: 7px 22px;
+            border: 1px solid white;
+            background: white;
+            border-radius: 8px;
+            a{
+            color: #fb5849;
+            text-decoration: none;
+            font: 15px verdana;
+            }
+        }
+        button:hover{
+            background: #fb5849;
+            transition-duration: 0.5s;
+            a{
+                color: white;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+    }
+    .two{
+        height: 600px;
+        width: 1010px;
+        background-image: url('img/slide-01.jpg');
+        background-size: cover;
+    }
+}
+@media screen and (max-width:954px){
+    .bg-img{
+        display: flex !important;
+        flex-direction: column;
+        transition-duration: 2s;
+        .one{
+            width: 100% !important; 
+            transition-duration: 2s; 
+        }
+        .two{
+            width: 100% !important;  
+            transition-duration: 2s; 
+        }
+    }  
+}
+/* main qismidagi About us */
+.memory{
+.leave{
+h5{
+font: 16px sans-serif;
+color: #fb5849;
+}
+h1{
+font:bold 30px sans-serif;
+color: black;
+}
+p{
+font: 15px sans-serif;
+span{
+a{
+text-decoration: none;
+font: 26px cursive;
+color: #f5deb3;
+}
+}
+}
+
+}
+.play{
+
+height: 470px;
+background-image: url('img/about-video-bg.jpg');
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+a{
+padding: 25px 30px;
+background: #fb5849;
+border-radius: 100%;
+i{
+color: white;
+}
+}
+}
+}
+/*menyular ketma ketligi qismi shirinliklar*/
+.our_menu{
+background-color: #f5deb3;
+.fotolar{
+width: 98%;
+margin: auto;
+.rows{
+
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.belis1{
+span{
+padding:20px 15px;
+font:bold 18px verdana;
+background: #fb5849;
+color: white;
+}
+position: relative;
+width: 18%;
+height: 400px;
+background-image: url('img/menu-item-01.jpg');
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+.belis11{
+background: #fb5849;
+color: white;
+height: 90px;
+width: 100%;
+padding: 25px 15px 0px 15px;
+.text_title{
+display: none;
+}
+a{
+font: 15px verdana;
+text-decoration: none;
+color: white;
+}
+}
+}
+.belis1:hover{
+.belis11{
+height: 220px;
+transition-duration: 1s;
+.text_title{
+display: block !important;
+transition-delay: 1s;
+transition-duration: 1s;
+}
+} 
+}
+.belis2{
+span{
+padding:20px 15px;
+font:bold 18px verdana;
+background: #fb5849;
+color: white;
+}
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+width: 18%;
+height: 400px;
+background-image: url('img/menu-item-02.jpg');
+background-size: cover;
+.belis22{
+background: #fb5849;
+width: 100%;
+color: white;
+height: 90px;
+padding: 25px 15px 0px 15px;
+.text_title{
+display: none;
+}
+a{
+font: 15px verdana;
+text-decoration: none;
+color: white;
+}
+}
+}
+.belis2:hover{
+.belis22{
+height: 220px;
+transition-duration: 1s;
+.text_title{
+display: block !important;
+transition-duration: 1s;
+}
+} 
+}
+.belis3{
+span{
+padding:20px 15px;
+font:bold 18px verdana;
+background: #fb5849;
+color: white;
+}
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+width: 18%;
+height: 400px;
+background-image: url('img/menu-item-03.jpg');
+background-size: cover;
+.belis33{
+background: #fb5849;
+color: white;
+height: 90px;
+padding: 25px 15px 0px 15px;
+width: 100%;
+.text_title{
+display: none;
+}
+a{
+font: 15px verdana;
+text-decoration: none;
+color: white;
+}
+}
+}
+.belis3:hover{
+.belis33{
+height: 220px;
+transition-duration: 1s;
+.text_title{
+display: block !important;
+transition-duration: 1s;
+}
+} 
+}
+.belis4{
+span{
+padding:20px 15px;
+font:bold 18px verdana;
+background: #fb5849;
+color: white;
+}
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+width: 18%;
+height: 400px;
+background-image: url('img/menu-item-04.jpg');
+background-size: cover;
+.belis44{
+background: #fb5849;
+color: white;
+height: 90px;
+padding: 25px 15px 0px 15px;
+width: 100%;
+.text_title{
+display: none;
+}
+a{
+font: 15px verdana;
+text-decoration: none;
+color: white;
+}
+}
+}
+.belis4:hover{
+.belis44{
+height: 220px;
+transition-duration: 1s;
+.text_title{
+display: block !important;
+transition-duration: 1s;
+}
+} 
+}
+.belis5{
+span{
+padding:20px 15px;
+font:bold 18px verdana;
+background: #fb5849;
+color: white;
+}
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+.belis55{
+background: #fb5849;
+color: white;
+height: 90px;
+padding: 25px 15px 0px 15px;
+width: 100%;
+.text_title{
+display: none;
+}
+a{
+font: 15px verdana;
+text-decoration: none;
+color: white;
+}
+}
+width: 18%;
+height: 400px;
+background-image: url('img/menu-item-05.jpg');
+background-size: cover;
+}
+.belis5:hover{
+.belis55{
+height: 220px;
+transition-duration: 1s;
+.text_title{
+display: block !important;
+transition-duration: 1s;
+}
+} 
+}
+}
+
+@media screen and (max-width:991px) and (min-width:717px){
+transition-duration: 1s;
+.rows{
+flex-wrap: wrap !important;
+}
+.belis1{
+width: 32% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis2{
+width: 32% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis3{
+width: 32% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis4{
+width: 48% !important;
+transition-duration: 1s;
+}
+.belis5{
+transition-duration: 1s;
+width: 48% !important;
+}
+}
+@media screen and (max-width:716px){
+transition-duration: 1s;
+.rows{
+flex-wrap: wrap !important;
+}
+.belis1{
+width: 100% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis2{
+width: 100% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis3{
+width: 100% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis4{
+width: 100% !important;
+transition-duration: 1s;
+margin-bottom: 20px;
+}
+.belis5{
+transition-duration: 1s;
+width: 100% !important;
+}
+}
+}
+/* oshpazlar rasmlari qismi*/
+.chefs{
+.container{
+h4{
+font:bold 20px verdana;
+}
+h4:hover{
+color: #fb5849;
+transition-duration: 0.5s;
+}
+.card111{
+display: none;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.9);
+ul{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+li{
+border: 1px solid white;
+padding: 10px 15px;
+border-radius: 100%;
+margin-right: 30px;
+background: white;
+a{
+i{
+color: black;
+}
+}
+}
+li:hover{
+background: #fb5849;
+border: 1px solid #fb5849;
+transition-duration: 0.5s;
+}
+}
+}
+.card1{
+margin-bottom: 20px;
+.card11{
+height: 300px;
+background-image: url('img/chefs-01.jpg');
+background-size: cover;
+}
+border: 1px solid #ccc;
+padding: 5px;
+}
+.card1:hover{
+.card111{
+display: block;
+}
+}
+.card2:hover{
+.card111{
+display: block;
+}
+}
+.card3:hover{
+.card111{
+display: block;
+}
+}
+.card2{
+margin-bottom: 20px;
+.card22{
+height: 300px;
+background-image: url('img/chefs-02.jpg');
+background-size: cover;
+}
+border: 1px solid #ccc;
+padding: 5px;
+}
+.card3{
+margin-bottom: 20px;
+.card33{
+width: 100%;
+height: 300px;
+background-image: url('img/chefs-03.jpg');
+background-size: cover; 
+}
+padding: 5px;
+border: 1px solid #ccc;
+}
+}
+}
+/*oshpazlar uchun media*/
+@media screen and (max-width:991px){
+.col-12{
+transition-duration: 1s;
+}
+
+}
+.tablas{
+    background-image: url('img/reservation-bg.jpg');
+    background-size: cover;
+.container{
+    .make{
+        h5{
+            font: 16px verdana;
+        }
+        h1{
+            font:bold 30px verdana;
+        }
+        p{
+            font: 16px verdana;
+            line-height: 1.7 !important;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+                border: 1px solid white;
+                padding: 40px 50px 20px 50px;
+                border-radius: 8px;
+                margin-right: 10px;
+                background: white;
+                color: black;
+                h4{
+                    font:bold 24px Poppins;
+                }
+                p{
+                    font: 16px cursive;
+                }
+                span{
+                    border: 1px solid #fb5849;
+                    padding: 22px 25px;
+                    border-radius: 100%;
+                    position: relative;
+                    bottom: 40px;
+                    background: #fb5849;
+                    i{
+                        font-size: 24px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .reser{
+        border: 1px solid white;
+        padding: 30px 20px;
+        background: white;
+        border-radius: 7px;
+    }
+}
+}
+@media screen and (max-width:572px){
+    .make{
+        transition-duration: 1s !important;
+        ul{
+            display: flex !important;
+            flex-direction: column !important;
+            transition-duration: 1s !important;
+            li{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+.taomlar{
+
+.container{
+.fist{
+display: flex;
+justify-content: center;
+text-align: center;
+h5{
+font:16px verdana;
+color: #fb5849;
+}
+h1{
+font: bold 30px verdana;
+}
+ul{
+display: flex;
+justify-content: space-between;
+li{
+a{text-decoration: none;
+h6{
+font:bold 16px verdana;
+color: black;
+}
+}
+
+}
+}
+}
+}
+.container{
+.second{
+.taom{
+display: flex;
+align-items: center;
+div{
+position: relative;
+top: 5px;
+padding: 0px 10px;
+h4{
+font:bold 20px verdana;
+}
+p{
+font: 15px verdana;
+line-height: 1.5 !important;
+}
+}
+span{
+border: 1px solid #fb5849;
+border-radius: 7px;
+padding: 10px 6px;
+background: #fb5849;
+display: flex;
+align-items: center;
+h4{
+font:bold 18px verdana;
+color: white;
+}
+}
+}
+}
+}
+}
+//taomlar uchun media holati
+@media screen and (max-width:567px) {
+.second{
+.taom{
+
+display: flex !important;
+flex-direction: column !important;
+img{
+width: 40%;
+animation: rasm 1s ease;
+}
+
+}
+}
+
+@keyframes rasm {
+0%{
+width: 20%;
+}
+100%{
+width: 40%;
+}
+}   
+
+}
+footer{
+background: #fb5849;
+.container{
+.row{
+display: flex;
+align-items: center;
+ul{
+display: flex;
+width: 80%;
+justify-content: space-between;
+align-items: center;
+li{
+a{
+border: 1px solid white;
+padding: 13px 15px;
+border-radius: 100%;
+background: white;
+i{
+color: #fb5849;
+font-size:20px;
+}
+}
+a:hover{
+transition-duration: 0.5s;
+i{
+color: black;
+transition-duration: 0.5s;
+}
+}
+}
+}
+}
+}
+}
+@media screen and (max-width:991px){
+    .container{
+        .row{
+            ul{
+                width: 100% !important;
+                transition-duration: 1s !important;
+            }
+            .tele{
+              
+                justify-content: center !important;
+            }
+        }
+    }
+}
